@@ -1,0 +1,12 @@
+FROM node:latest as dev
+
+COPY ../. /usr/src/td3v
+
+
+RUN chmod a+rwx -R /usr/src/td3v
+RUN apt-get update
+RUN apt-get -y install --no-install-recommends apt-utils zip unzip nano ncdu git vim gitg ssh 2>&1
+RUN apt-get autoremove -y
+RUN apt-get clean -y 
+RUN rm -rf /var/lib/apt/lists/* 
+RUN npm install -g pnpm

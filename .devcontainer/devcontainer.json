@@ -1,0 +1,24 @@
+{
+  "name": "TD3V",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "web",
+  "workspaceFolder": "/usr/src/td3v",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "esbenp.prettier-vscode",
+        "svelte.svelte-vscode",
+        "dbaeumer.vscode-eslint",
+        "ms-vscode.vscode-typescript-next",
+        "visualstudioexptteam.vscodeintellic",
+        "christian-kohler.path-intellisense",
+        "mikestead.dotenv",
+        "ms-vscode.vscode-typescript-tslint-plugin",
+        "bradlc.vscode-tailwindcss"
+      ]
+    }
+  },
+  "forwardPorts": [
+    3000
+  ]
+}

@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'Roboto';
+    src: local('Roboto'), local('roboto'),
+    url('/fonts/roboto/Roboto-Regular.ttf');
+    font-weight: 400;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'Roboto';
+    src: local('Roboto-Bold'), local('roboto bold'),
+    url('/fonts/roboto/Roboto-Bold.ttf');
+    font-weight: 700;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'Roboto';
+    src: local('Roboto-Thin'), local('roboto thin'),
+    url('/fonts/roboto/Roboto-Thin.ttf');
+    font-weight: 100;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'Roboto Mono';
+    src: local('Roboto Mono'), local('Roboto-Mono'), local('roboto mono'), local('roboto-mono'),
+      url('/fonts/roboto_mono/RobotoMono-Regular.ttf');
+    font-weight: 400;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'Roboto Mono';
+    src: local('Roboto Mono ExtraLight'), local('Roboto-Mono-ExtraLight'), local('roboto mono extralight'), local('roboto-mono-extralight'),
+      url('/fonts/roboto_mono/RobotoMono-ExtraLight.ttf');
+    font-weight: 200;
+    font-display: swap;
+  }
+}
