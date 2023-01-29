@@ -1,7 +1,7 @@
 <svelte:head>
   <title>ABOUT | TD3V</title>
 </svelte:head>
-<div class="h-screen bg-gradient-to-b from-sky-900 to-gray-900 pt-20 pb-16 px-4 flex flex-col items-center">
+<div class="min-h-screen h-full bg-gradient-to-b from-sky-900 to-gray-900 pt-20 pb-16 px-4 flex flex-col items-center">
   <div class="w-full md:w-[50%]">
     <h1 class="font-roboto font-bold text-white text-4xl mb-6">HEY IT'S ME TD3V</h1>
     <img class="h-20 w-20 rounded-full border-sky-500 border-4 shadow-xl mb-2" src="/logo_td3v.png" alt="Profile of TD3V" />
