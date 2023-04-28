@@ -9,4 +9,3 @@ RUN apt-get -y install --no-install-recommends apt-utils zip unzip nano ncdu git
 RUN apt-get autoremove -y
 RUN apt-get clean -y 
 RUN rm -rf /var/lib/apt/lists/* 
-RUN npm install -g yarn
