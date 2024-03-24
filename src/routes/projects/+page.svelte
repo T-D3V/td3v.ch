@@ -13,7 +13,7 @@
     </CardPircture>
     <CardPircture refLink="https://voicesofwynn.com" imgUrl="/projects/voicesofwynn.com.png" title="VoicesOfWynn" alt="Screenshot of Voices of Wynn">
       <p class="text-slate-200 font-robotomono font-extralight mb-6">
-        Here I'm a web developer, voice actor, voice manager & discord moderator
+        Here I did many things. Like the homepage, being a voicemanager and discord moderator.
       </p>
     </CardPircture>
   </div>
